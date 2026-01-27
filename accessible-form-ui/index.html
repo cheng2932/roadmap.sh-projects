@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Form UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <form>
+                <label for="fullname">Full Name</label>
+                <input type="text" name="fullname" placeholder="What should we call you?" aria-required="true">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" aria-required="true">
+
+                <label for="password">Enter Password</label>
+                <input type="password" name="password" aria-required="true">
+
+                <label for="confirmpassword">Confirm Password</label>
+                <input type="password" name="confirmpassword" aria-required="true">
+
+                <button> Update Profile</button>
+            </form>
+
+        </div>
+        <div class="container-user-info">
+            <div class="completeness">
+                <progress value="65" max="100" alt="65/100 progress bar"></progress>
+            </div>
+            <div class="user-checklist">
+                <h2> Profile Completeness</h2>
+                <div class="checklist">
+                    <p class="strike">Create Account</p>
+                    <p class="strike">Update Roadmap Progress</p>
+                    <p class="strike">Setup Public Profile</p>
+                    <p> Complete your first project</p>
+                    <p> Invite your Friends</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  background-color: #f4f4f4;
+}
+.container {
+  flex: 1;
+  padding: 2em;
+}
+
+.container-user-info {
+  flex: 1;
+}
+
+input,
+label {
+  display: block;
+}
+p {
+  padding: 1rem 0 0 0;
+}
+
+.checklist {
+  background-color: #939393;
+}
